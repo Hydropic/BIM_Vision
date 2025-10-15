@@ -1,6 +1,6 @@
 # BIM Rule-Check Visualizer
 
-A React-based  (BIM) IDS visualizer with AI helper integration. Directly attached to the "BIM Portal" of the German Federal Government
+A React-based  (BIM) IDS visualizer with AI helper integration. Directly attached to the "BIM Portal" of the German Federal Government. Developed for the Hackathon "BIM Portal 2025" and it was the winning project for first place.
 
 ![Main Interface](docs/images/main-interface-overview.png)
 
