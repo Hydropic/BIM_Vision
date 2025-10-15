@@ -1,0 +1,344 @@
+[
+    {
+    "version": "2.1",
+    "status": "todo",
+    "issues": [
+        {
+        "markup": {
+            "header": {
+            "files": [
+                {
+                "filename": "BIM Project.ifc",
+                "date": "2025-09-22T18:34:20.990Z",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            },
+            "topic": {
+            "guid": "e9232d71-5ef0-419a-99f1-7a04edfb3551",
+            "topic_type": "Warning",
+            "topic_status": "Open",
+            "title": "Fehlender IDS-Anforderung für Element W2 (Wall)",
+            "priority": "medium",
+            "index": 1,
+            "labels": [
+                "IDS-Compliance",
+                "Deutsche Baustandards"
+            ],
+            "creation_date": "2025-09-22T18:34:20.990Z",
+            "creation_author": "BIM Analyst",
+            "modified_date": "2025-09-22T18:34:20.990Z",
+            "modified_author": "BIM Analyst",
+            "description": "Das Element W2 (Wall) erfüllt nicht die erforderliche IDS-Anforderung für die Eigenschaft 'fireClass'.",
+            "bim_snippet": {
+                "snippet_type": "IfcPropertySet",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85",
+                "reference_schema": "IFC4"
+            }
+            },
+            "comments": [
+            {
+                "guid": "4a442d2b-6af5-43e0-9f98-1be3f5010214",
+                "date": "2025-09-22T18:34:20.990Z",
+                "author": "BIM Analyst",
+                "comment": "Es wird empfohlen, die fehlende IDS-Anforderung 'fireClass' für das Element W2 (Wall) hinzuzufügen, um die IDS-Compliance sicherzustellen.\n\nIDS Requirements:\nRelevante IDS Anforderungen:\nBaugrundverbesserungen:\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Tragend (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Material (erforderlich)\n  • Breite (m) (erforderlich)\nBodenbeläge:\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\nDachbeläge:\n  • Volumen (erforderlich)\n  • Fläche (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Name (erforderlich)\nDeckenbekleidungen:\n  • Geschoss-ID (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Material (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Länge (mm) (erforderlich)\n  • Volumen (erforderlich)\nGeschossdecken:\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Funktion, Lage (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Volumen (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Tragend (erforderlich)\nWand, massiv:\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Tiefe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\nWand, Trockenbau:\n  • Funktion, Lage (erforderlich)\n  • Tiefe (mm) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Tragend (erforderlich)\n  • Volumen (erforderlich)\n  • Geschoss-Codierung (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\nWandbekleidungen:\n  • Volumen (erforderlich)\n  • Name (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Länge (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\nWand, massiv:\n  • Name (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Länge (m) (erforderlich)\n  • Tragend (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)",
+                "topic_guid": "e9232d71-5ef0-419a-99f1-7a04edfb3551"
+            }
+            ]
+        },
+        "viewpoint": {
+            "guid": "08e7214b-2830-4dba-a207-9ee2dea32d8d",
+            "components": {
+            "visibility": {
+                "default_visibility": false,
+                "exceptions": [
+                {
+                    "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+                ]
+            },
+            "selection": [
+                {
+                "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            }
+        }
+        }
+    ]
+    },
+
+    {
+    "version": "2.1",
+    "status": "todo",
+    "issues": [
+        {
+        "markup": {
+            "header": {
+            "files": [
+                {
+                "filename": "BIM Project.ifc",
+                "date": "2025-09-22T18:34:20.990Z",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            },
+            "topic": {
+            "guid": "e9232d71-5ef0-419a-99f1-7a04edfb3552",
+            "topic_type": "Warning",
+            "topic_status": "Open",
+            "title": "Fehlender IDS-Anforderung für Element W2 (Wall)",
+            "priority": "low",
+            "index": 1,
+            "labels": [
+                "IDS-Compliance",
+                "Deutsche Baustandards"
+            ],
+            "creation_date": "2025-09-22T18:34:20.990Z",
+            "creation_author": "BIM Analyst",
+            "modified_date": "2025-09-22T18:34:20.990Z",
+            "modified_author": "BIM Analyst",
+            "description": "Das Element W2 (Wall) erfüllt nicht die erforderliche IDS-Anforderung für die Eigenschaft 'fireClass'.",
+            "bim_snippet": {
+                "snippet_type": "IfcPropertySet",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85",
+                "reference_schema": "IFC4"
+            }
+            },
+            "comments": [
+            {
+                "guid": "4a442d2b-6af5-43e0-9f98-1be3f5010214",
+                "date": "2025-09-22T18:34:20.990Z",
+                "author": "BIM Analyst",
+                "comment": "Es wird empfohlen, die fehlende IDS-Anforderung 'fireClass' für das Element W2 (Wall) hinzuzufügen, um die IDS-Compliance sicherzustellen.\n\nIDS Requirements:\nRelevante IDS Anforderungen:\nBaugrundverbesserungen:\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Tragend (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Material (erforderlich)\n  • Breite (m) (erforderlich)\nBodenbeläge:\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\nDachbeläge:\n  • Volumen (erforderlich)\n  • Fläche (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Name (erforderlich)\nDeckenbekleidungen:\n  • Geschoss-ID (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Material (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Länge (mm) (erforderlich)\n  • Volumen (erforderlich)\nGeschossdecken:\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Funktion, Lage (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Volumen (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Tragend (erforderlich)\nWand, massiv:\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Tiefe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\nWand, Trockenbau:\n  • Funktion, Lage (erforderlich)\n  • Tiefe (mm) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Tragend (erforderlich)\n  • Volumen (erforderlich)\n  • Geschoss-Codierung (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\nWandbekleidungen:\n  • Volumen (erforderlich)\n  • Name (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Länge (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\nWand, massiv:\n  • Name (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Länge (m) (erforderlich)\n  • Tragend (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)",
+                "topic_guid": "e9232d71-5ef0-419a-99f1-7a04edfb3551"
+            }
+            ]
+        },
+        "viewpoint": {
+            "guid": "08e7214b-2830-4dba-a207-9ee2dea32d8d",
+            "components": {
+            "visibility": {
+                "default_visibility": false,
+                "exceptions": [
+                {
+                    "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+                ]
+            },
+            "selection": [
+                {
+                "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            }
+        }
+        }
+    ]
+    },
+
+        {
+    "version": "2.1",
+    "status": "todo",
+    "issues": [
+        {
+        "markup": {
+            "header": {
+            "files": [
+                {
+                "filename": "BIM Project.ifc",
+                "date": "2025-09-22T18:34:20.990Z",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            },
+            "topic": {
+            "guid": "e9232d71-5ef0-419a-99f1-7a04edfb3553",
+            "topic_type": "Warning",
+            "topic_status": "Open",
+            "title": "Fehlender IDS-Anforderung für Element W2 (Wall)",
+            "priority": "medium",
+            "index": 1,
+            "labels": [
+                "IDS-Compliance",
+                "Deutsche Baustandards"
+            ],
+            "creation_date": "2025-09-22T18:34:20.990Z",
+            "creation_author": "BIM Analyst",
+            "modified_date": "2025-09-22T18:34:20.990Z",
+            "modified_author": "BIM Analyst",
+            "description": "Das Element W2 (Wall) erfüllt nicht die erforderliche IDS-Anforderung für die Eigenschaft 'fireClass'.",
+            "bim_snippet": {
+                "snippet_type": "IfcPropertySet",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85",
+                "reference_schema": "IFC4"
+            }
+            },
+            "comments": [
+            {
+                "guid": "4a442d2b-6af5-43e0-9f98-1be3f5010214",
+                "date": "2025-09-22T18:34:20.990Z",
+                "author": "BIM Analyst",
+                "comment": "Es wird empfohlen, die fehlende IDS-Anforderung 'fireClass' für das Element W2 (Wall) hinzuzufügen, um die IDS-Compliance sicherzustellen.\n\nIDS Requirements:\nRelevante IDS Anforderungen:\nBaugrundverbesserungen:\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Tragend (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Material (erforderlich)\n  • Breite (m) (erforderlich)\nBodenbeläge:\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\nDachbeläge:\n  • Volumen (erforderlich)\n  • Fläche (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Name (erforderlich)\nDeckenbekleidungen:\n  • Geschoss-ID (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Material (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Länge (mm) (erforderlich)\n  • Volumen (erforderlich)\nGeschossdecken:\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Funktion, Lage (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Volumen (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Tragend (erforderlich)\nWand, massiv:\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Tiefe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\nWand, Trockenbau:\n  • Funktion, Lage (erforderlich)\n  • Tiefe (mm) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Tragend (erforderlich)\n  • Volumen (erforderlich)\n  • Geschoss-Codierung (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\nWandbekleidungen:\n  • Volumen (erforderlich)\n  • Name (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Länge (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\nWand, massiv:\n  • Name (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Länge (m) (erforderlich)\n  • Tragend (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)",
+                "topic_guid": "e9232d71-5ef0-419a-99f1-7a04edfb3551"
+            }
+            ]
+        },
+        "viewpoint": {
+            "guid": "08e7214b-2830-4dba-a207-9ee2dea32d8d",
+            "components": {
+            "visibility": {
+                "default_visibility": false,
+                "exceptions": [
+                {
+                    "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+                ]
+            },
+            "selection": [
+                {
+                "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            }
+        }
+        }
+    ]
+    },
+    {
+    "version": "2.1",
+    "status": "todo",
+    "issues": [
+        {
+        "markup": {
+            "header": {
+            "files": [
+                {
+                "filename": "BIM Project.ifc",
+                "date": "2025-09-22T18:34:20.990Z",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            },
+            "topic": {
+            "guid": "e9232d71-5ef0-419a-99f1-7a04edfb3554",
+            "topic_type": "Warning",
+            "topic_status": "Open",
+            "title": "Fehlender IDS-Anforderung für Element W2 (Wall)",
+            "priority": "high",
+            "index": 1,
+            "labels": [
+                "IDS-Compliance",
+                "Deutsche Baustandards"
+            ],
+            "creation_date": "2025-09-22T18:34:20.990Z",
+            "creation_author": "BIM Analyst",
+            "modified_date": "2025-09-22T18:34:20.990Z",
+            "modified_author": "BIM Analyst",
+            "description": "Das Element W2 (Wall) erfüllt nicht die erforderliche IDS-Anforderung für die Eigenschaft 'fireClass'.",
+            "bim_snippet": {
+                "snippet_type": "IfcPropertySet",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85",
+                "reference_schema": "IFC4"
+            }
+            },
+            "comments": [
+            {
+                "guid": "4a442d2b-6af5-43e0-9f98-1be3f5010214",
+                "date": "2025-09-22T18:34:20.990Z",
+                "author": "BIM Analyst",
+                "comment": "Es wird empfohlen, die fehlende IDS-Anforderung 'fireClass' für das Element W2 (Wall) hinzuzufügen, um die IDS-Compliance sicherzustellen.\n\nIDS Requirements:\nRelevante IDS Anforderungen:\nBaugrundverbesserungen:\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Tragend (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Material (erforderlich)\n  • Breite (m) (erforderlich)\nBodenbeläge:\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\nDachbeläge:\n  • Volumen (erforderlich)\n  • Fläche (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Name (erforderlich)\nDeckenbekleidungen:\n  • Geschoss-ID (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Material (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Länge (mm) (erforderlich)\n  • Volumen (erforderlich)\nGeschossdecken:\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Funktion, Lage (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Volumen (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Tragend (erforderlich)\nWand, massiv:\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Tiefe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\nWand, Trockenbau:\n  • Funktion, Lage (erforderlich)\n  • Tiefe (mm) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Tragend (erforderlich)\n  • Volumen (erforderlich)\n  • Geschoss-Codierung (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\nWandbekleidungen:\n  • Volumen (erforderlich)\n  • Name (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Länge (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\nWand, massiv:\n  • Name (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Länge (m) (erforderlich)\n  • Tragend (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)",
+                "topic_guid": "e9232d71-5ef0-419a-99f1-7a04edfb3551"
+            }
+            ]
+        },
+        "viewpoint": {
+            "guid": "08e7214b-2830-4dba-a207-9ee2dea32d8d",
+            "components": {
+            "visibility": {
+                "default_visibility": false,
+                "exceptions": [
+                {
+                    "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+                ]
+            },
+            "selection": [
+                {
+                "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            }
+        }
+        }
+    ]
+    },
+    {
+    "version": "2.1",
+    "status": "todo",
+    "issues": [
+        {
+        "markup": {
+            "header": {
+            "files": [
+                {
+                "filename": "BIM Project.ifc",
+                "date": "2025-09-22T18:34:20.990Z",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            },
+            "topic": {
+            "guid": "e9232d71-5ef0-419a-99f1-7a04edfb3555",
+            "topic_type": "Warning",
+            "topic_status": "Open",
+            "title": "Fehlender IDS-Anforderung für Element W2 (Wall)",
+            "priority": "high",
+            "index": 1,
+            "labels": [
+                "IDS-Compliance",
+                "Deutsche Baustandards"
+            ],
+            "creation_date": "2025-09-22T18:34:20.990Z",
+            "creation_author": "BIM Analyst",
+            "modified_date": "2025-09-22T18:34:20.990Z",
+            "modified_author": "BIM Analyst",
+            "description": "Das Element W2 (Wall) erfüllt nicht die erforderliche IDS-Anforderung für die Eigenschaft 'fireClass'.",
+            "bim_snippet": {
+                "snippet_type": "IfcPropertySet",
+                "reference": "0f025453-562a-489f-9e4c-58b675128f85",
+                "reference_schema": "IFC4"
+            }
+            },
+            "comments": [
+            {
+                "guid": "4a442d2b-6af5-43e0-9f98-1be3f5010214",
+                "date": "2025-09-22T18:34:20.990Z",
+                "author": "BIM Analyst",
+                "comment": "Es wird empfohlen, die fehlende IDS-Anforderung 'fireClass' für das Element W2 (Wall) hinzuzufügen, um die IDS-Compliance sicherzustellen.\n\nIDS Requirements:\nRelevante IDS Anforderungen:\nBaugrundverbesserungen:\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Tragend (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Material (erforderlich)\n  • Breite (m) (erforderlich)\nBodenbeläge:\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\nDachbeläge:\n  • Volumen (erforderlich)\n  • Fläche (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Name (erforderlich)\nDeckenbekleidungen:\n  • Geschoss-ID (erforderlich)\n  • Name (erforderlich)\n  • Fläche (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Material (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Breite (m) (erforderlich)\n  • Länge (mm) (erforderlich)\n  • Volumen (erforderlich)\nGeschossdecken:\n  • Gebäude-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Funktion, Lage (erforderlich)\n  • Länge (m) (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Volumen (erforderlich)\n  • Material (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\n  • Tragend (erforderlich)\nWand, massiv:\n  • Gebäude-ID (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Material (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Tiefe (m) (erforderlich)\n  • Länge (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Name (erforderlich)\nWand, Trockenbau:\n  • Funktion, Lage (erforderlich)\n  • Tiefe (mm) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Tragend (erforderlich)\n  • Volumen (erforderlich)\n  • Geschoss-Codierung (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Länge (m) (erforderlich)\nWandbekleidungen:\n  • Volumen (erforderlich)\n  • Name (erforderlich)\n  • Breite (m) (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)\n  • Fläche (erforderlich)\n  • Länge (m) (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Gebäude-ID (erforderlich)\nWand, massiv:\n  • Name (erforderlich)\n  • Volumen (erforderlich)\n  • Bauteiltyp (erforderlich)\n  • Länge (m) (erforderlich)\n  • Tragend (erforderlich)\n  • Geschoss-ID (erforderlich)\n  • Breite (m) (erforderlich)\n  • Gebäude-ID (erforderlich)\n  • Material (erforderlich)\n  • Höhe (m) (erforderlich)",
+                "topic_guid": "e9232d71-5ef0-419a-99f1-7a04edfb3551"
+            }
+            ]
+        },
+        "viewpoint": {
+            "guid": "08e7214b-2830-4dba-a207-9ee2dea32d8d",
+            "components": {
+            "visibility": {
+                "default_visibility": false,
+                "exceptions": [
+                {
+                    "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+                ]
+            },
+            "selection": [
+                {
+                "ifc_guid": "0f025453-562a-489f-9e4c-58b675128f85"
+                }
+            ]
+            }
+        }
+        }
+    ]
+    }
+]

@@ -1,0 +1,52 @@
+{
+  "name": "archvision",
+  "version": "1.0.0",
+  "description": "BIM Rule Validation Platform with AI-powered compliance analysis",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --open"
+  },
+  "dependencies": {
+    "@thatopen/components": "^3.1.3",
+    "@thatopen/components-front": "^3.1.3",
+    "@thatopen/ui-obc": "^3.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.0",
+    "@babel/preset-typescript": "^7.23.0",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/three": "^0.158.0",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^9.1.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.2.0",
+    "postcss-preset-env": "^10.4.0",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^4.1.13",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.2.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "peerDependencies": {
+    "three": ">=0.175.0"
+  },
+  "keywords": [
+    "react",
+    "three.js",
+    "bim",
+    "visualization"
+  ]
+}
