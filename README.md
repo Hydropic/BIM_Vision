@@ -61,7 +61,7 @@ The application provides intelligent analysis of rule violations with actionable
 
 When an element fails validation, the AI can analyze the issue and provide detailed fix recommendations:
 
-![AI Fix Recommendations](docs/images/ai-fix-recommendations.png)
+<img src="docs/images/ai-fix-recommendations.png" alt="AI Fix Recommendations" width="600">
 
 ## Rule Validation
 
