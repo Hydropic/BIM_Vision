@@ -75,6 +75,4 @@ Elements are color-coded based on rule compliance:
 
 - React 18
 - OpenBIM-Components 3.1
-- Webpack for bundling
-- Babel for JSX transpilation
 - Typescript
